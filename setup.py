@@ -12,16 +12,9 @@ if sys.version_info < (3, 5,):
 
 setup(
     name='aioclient',
-    version='0.1.2',
+    version='0.0.1',
     install_requires=[
-        "aioredis",
-        "click",
-        "colorlog",
         "cython",
-        "marshmallow>=3.0.0rc4",
-        "msgpack-python",
-        'umsgpack',
-        "uvloop"
     ],
     url='https://github.com/phlax/aioclient',
     license='GPL3',

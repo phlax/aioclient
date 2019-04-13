@@ -44,7 +44,6 @@ def test_response_comparison():
             traces=[],
             loop=loop,
             session=None)
-
     print("aiohttp.client completed: %s" % (time.time() - start))
 
 

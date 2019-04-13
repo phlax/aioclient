@@ -1,0 +1,4 @@
+
+        stripped = self._body.strip()
+        if not stripped:
+            return None
